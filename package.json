@@ -1,0 +1,14 @@
+{
+  "name": "olms-back-end",
+  "version": "1.0.0",
+  "description": "backend-code for OLMS Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milandeep Singh Bhalla and Bharat Shah",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
