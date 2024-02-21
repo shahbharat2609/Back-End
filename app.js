@@ -1,8 +1,11 @@
 require('dotenv').config({ path: '.env' });
 const express = require('express');
 const mongoose = require('mongoose');
+const userRouter = require('./Routes/userRoutes');
 
 const app = express();
+
+app.use(userRouter);
 
 
 mongoose.connect(process.env.MONGO_URI)
